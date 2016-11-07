@@ -1,0 +1,11 @@
+export const CHANGE_LOADSTATE = 'CHANGE_LOADSTATE'
+export const VALID_LOGIN = 'VALID_LOGIN'
+export const VALID_REGISTER = 'VALID_REGISTER'
+
+export const GET_All = 'GET_All'
+export const ADD_ITEM = 'ADD_ITEM'
+export const DELETE_ITEM = 'DELETE_ITEM'
+export const DELETE_ALL = 'DELETE_ALL'
+export const EDIT_ITEM = 'EDIT_ITEM'
+export const COMPLETE_ITEM = 'COMPLETE_ITEM'
+export const COMPLATE_ALL = 'COMPLATE_ALL'

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="46px" height="46px" viewBox="0 0 46 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.8.2 (29753) - http://www.bohemiancoding.com/sketch -->
+    <title>logo_symbol</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="-7.10542736e-15" width="1280" height="87.0748299"></rect>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.08 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-3" x="0" y="0" width="36.5714286" height="36.5714286" rx="7.04"></rect>
+        <rect id="path-5" x="4.61496599" y="4.61496599" width="36.9197279" height="36.9197279" rx="7.04"></rect>
+        <rect id="path-7" x="6.88682746" y="6.88682746" width="36.7297464" height="36.7297464" rx="7.04"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-1" transform="translate(-41.000000, -21.000000)">
+            <g id="HEADER">
+                <g id="header_background">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="logo" transform="translate(39.183673, 18.285714)">
+                    <g id="logo_symbol" transform="translate(0.000000, 0.000000)">
+                        <g id="Group-Copy" opacity="0.4" transform="translate(6.965986, 6.965986)">
+                            <mask id="mask-4" fill="white">
+                                <use xlink:href="#path-3"></use>
+                            </mask>
+                            <use id="Mask" fill="#D8D8D8" xlink:href="#path-3"></use>
+                            <g mask="url(#mask-4)">
+                                <g transform="translate(20.454106, 20.091156) rotate(-345.000000) translate(-20.454106, -20.091156) translate(-12.307799, -8.099320)">
+                                    <rect id="Rectangle-16" fill="#2FD565" x="6.0952381" y="0.761904762" width="6.0952381" height="54.552381"></rect>
+                                    <rect id="Rectangle-16-Copy" fill="#2FD565" opacity="0.8" x="12.1904762" y="0.761904762" width="6.0952381" height="54.552381"></rect>
+                                    <rect id="Rectangle-16-Copy-2" fill="#2FD565" opacity="0.9" x="18.2857143" y="0.761904762" width="6.0952381" height="54.552381"></rect>
+                                    <rect id="Rectangle-16-Copy-3" fill="#2FD565" opacity="0.7" x="24.3809524" y="0.761904762" width="6.0952381" height="54.552381"></rect>
+                                    <rect id="Rectangle-16-Copy-4" fill="#2FD565" opacity="0.8" x="30.4761905" y="0.761904762" width="6.0952381" height="54.552381"></rect>
+                                    <rect id="Rectangle-16-Copy-5" fill="#2FD565" opacity="0.6" x="36.5714286" y="0.761904762" width="6.0952381" height="54.552381"></rect>
+                                    <rect id="Rectangle-16-Copy-6" fill="#2FD565" opacity="0.7" x="42.6666667" y="0.761904762" width="6.0952381" height="54.552381"></rect>
+                                    <rect id="Rectangle-16-Copy-7" fill="#2FD565" opacity="0.5" x="48.7619048" y="0.761904762" width="6.0952381" height="54.552381"></rect>
+                                    <rect id="Rectangle-73" fill="#D6D8D9" x="0.761904762" y="0.761904762" width="64.7619048" height="54.8571429"></rect>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="Group-Copy-5" transform="translate(2.612245, 2.612245)">
+                            <mask id="mask-6" fill="white">
+                                <use xlink:href="#path-5"></use>
+                            </mask>
+                            <use id="Mask" fill="#D8D8D8" transform="translate(23.074830, 23.074830) rotate(15.000000) translate(-23.074830, -23.074830) " xlink:href="#path-5"></use>
+                            <g id="Group-Copy" mask="url(#mask-6)">
+                                <g transform="translate(25.263873, 24.897466) rotate(-345.000000) translate(-25.263873, -24.897466) translate(-7.810050, -3.561491)">
+                                    <rect id="Rectangle-16" fill="#2FD565" x="6.15328798" y="0.769160998" width="6.15328798" height="55.0719274"></rect>
+                                    <rect id="Rectangle-16-Copy" fill="#2FD565" opacity="0.8" x="12.306576" y="0.769160998" width="6.15328798" height="55.0719274"></rect>
+                                    <rect id="Rectangle-16-Copy-2" fill="#2FD565" opacity="0.9" x="18.4598639" y="0.769160998" width="6.15328798" height="55.0719274"></rect>
+                                    <rect id="Rectangle-16-Copy-3" fill="#2FD565" opacity="0.7" x="24.6131519" y="0.769160998" width="6.15328798" height="55.0719274"></rect>
+                                    <rect id="Rectangle-16-Copy-4" fill="#2FD565" opacity="0.8" x="30.7664399" y="0.769160998" width="6.15328798" height="55.0719274"></rect>
+                                    <rect id="Rectangle-16-Copy-5" fill="#2FD565" opacity="0.6" x="36.9197279" y="0.769160998" width="6.15328798" height="55.0719274"></rect>
+                                    <rect id="Rectangle-16-Copy-6" fill="#2FD565" opacity="0.7" x="43.0730159" y="0.769160998" width="6.15328798" height="55.0719274"></rect>
+                                    <rect id="Rectangle-16-Copy-7" fill="#2FD565" opacity="0.5" x="49.2263039" y="0.769160998" width="6.15328798" height="55.0719274"></rect>
+                                    <rect id="Rectangle-73" fill="#D6D8D9" x="0.769160998" y="0.769160998" width="65.3786848" height="55.3795918"></rect>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="Group-Copy-4" transform="translate(0.000000, 0.000000)">
+                            <mask id="mask-8" fill="white">
+                                <use xlink:href="#path-7"></use>
+                            </mask>
+                            <use id="Mask" fill="#D8D8D8" transform="translate(25.251701, 25.251701) rotate(30.000000) translate(-25.251701, -25.251701) " xlink:href="#path-7"></use>
+                            <g id="Group-Copy" opacity="0.7" mask="url(#mask-8)">
+                                <g transform="translate(27.429479, 27.064958) rotate(-345.000000) translate(-27.429479, -27.064958) translate(-5.474252, -1.247555)">
+                                    <rect id="Rectangle-16" fill="#2FD565" x="6.12162441" y="0.765203051" width="6.12162441" height="54.7885384"></rect>
+                                    <rect id="Rectangle-16-Copy" fill="#2FD565" opacity="0.8" x="12.2432488" y="0.765203051" width="6.12162441" height="54.7885384"></rect>
+                                    <rect id="Rectangle-16-Copy-2" fill="#2FD565" opacity="0.9" x="18.3648732" y="0.765203051" width="6.12162441" height="54.7885384"></rect>
+                                    <rect id="Rectangle-16-Copy-3" fill="#2FD565" opacity="0.7" x="24.4864976" y="0.765203051" width="6.12162441" height="54.7885384"></rect>
+                                    <rect id="Rectangle-16-Copy-4" fill="#2FD565" opacity="0.8" x="30.608122" y="0.765203051" width="6.12162441" height="54.7885384"></rect>
+                                    <rect id="Rectangle-16-Copy-5" fill="#2FD565" opacity="0.6" x="36.7297464" y="0.765203051" width="6.12162441" height="54.7885384"></rect>
+                                    <rect id="Rectangle-16-Copy-6" fill="#2FD565" opacity="0.7" x="42.8513709" y="0.765203051" width="6.12162441" height="54.7885384"></rect>
+                                    <rect id="Rectangle-16-Copy-7" fill="#2FD565" opacity="0.5" x="48.9729953" y="0.765203051" width="6.12162441" height="54.7885384"></rect>
+                                    <rect id="Rectangle-73" fill="#32393D" x="0.765203051" y="0.765203051" width="65.0422593" height="55.0946197"></rect>
+                                </g>
+                            </g>
+                        </g>
+                        <text id="YT" font-family=".SFNSText-Regular, .SF NS Text" font-size="19.2" font-weight="normal" fill="#FFFFFF">
+                            <tspan x="13.4095238" y="34.1510204">YT</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
