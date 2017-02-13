@@ -16,7 +16,7 @@ import {mixin} from 'core-decorators'
 import mainMixin from './mainMixin'
 
 let config = new Config()
-let router = config.router
+let api = config.api
 
 @mixin(mainMixin)
 class FilterContentView extends Component {
@@ -82,9 +82,9 @@ class FilterContentView extends Component {
   }
 
   clickDelete() {
-    var api = router.deleteComplete
+    var api = api.deleteComplete
     if (this.props.contentState == 1) {
-      api = router.deleteExpire
+      api = api.deleteExpire
     }
     var httpHeader = this.configHttpHeader()
     var that = this

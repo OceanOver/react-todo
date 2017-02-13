@@ -9,7 +9,7 @@ import mainMixin from './mainMixin'
 import moment from 'moment'
 
 let config = new Config()
-let router = config.router
+let api = config.api
 
 @mixin(mainMixin)
 class Content extends Component {
@@ -30,7 +30,7 @@ class Content extends Component {
     }
     var httpHeader = this.configHttpHeader()
     var that = this
-    fetch(router.addItem, {
+    fetch(api.addItem, {
       method: 'POST',
       credentials: 'include',
       headers: httpHeader,

@@ -17,7 +17,7 @@ import {mixin} from 'core-decorators'
 import mainMixin from './mainMixin'
 
 let config = new Config()
-let router = config.router
+let api = config.api
 let qiniuConfig = config.qiniuConfig
 
 const createForm = Form.create
@@ -40,7 +40,7 @@ class Header extends Component {
   getUptoken() {
     var httpHeader = this.configHttpHeader()
     var that = this
-    fetch(router.getUptoken, {
+    fetch(api.getUptoken, {
       method: 'POST',
       credentials: 'include',
       headers: httpHeader,
@@ -69,7 +69,7 @@ class Header extends Component {
       //登出
       var httpHeader = this.configHttpHeader()
       var that = this
-      fetch(router.logout, {
+      fetch(api.logout, {
         method: 'POST',
         credentials: 'include',
         headers: httpHeader
@@ -114,7 +114,7 @@ class Header extends Component {
 
     var httpHeader = this.configHttpHeader()
     var that = this
-    fetch(router.modifyPassword, {
+    fetch(api.modifyPassword, {
       method: 'POST',
       credentials: 'include',
       headers: httpHeader,
@@ -177,12 +177,13 @@ class Header extends Component {
    * callback image url
    */
   uploadHeadIcon() {
+    const {imageUrl} = this.state
     if (!this.state.imageUrl) {
       this.hideHeadIconModal()
     }
     var httpHeader = this.configHttpHeader()
     var that = this
-    fetch(router.saveHeadIcon, {
+    fetch(api.saveHeadIcon, {
       method: 'POST',
       credentials: 'include',
       headers: httpHeader,
@@ -193,7 +194,7 @@ class Header extends Component {
       that.hideHeadIconModal()
       if (json.state === 1000) {
         config.userInfo = json.user
-        that.setState({imageUrl: null, headIcon: json.user.headIcon})
+        that.setState({imageUrl: null, headIcon: imageUrl})
         that.showMessage('上传成功')
       } else if (json.message) {
         that.showMessage(json.message)

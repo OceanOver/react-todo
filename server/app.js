@@ -12,7 +12,6 @@ var passport = require('passport');
 var bodyParser = require('body-parser');
 var cors = require('cors');
 var errorhandler = require('errorhandler');
-var notifier = require('node-notifier');
 var fs = require('fs');
 var config = require('./config/env');
 var Redis = require('ioredis');
@@ -61,7 +60,7 @@ var sessionOption = {
 if (process.env.NODE_ENV === 'production') {
     Object.assign(sessionOption, {
         store: new MongoStore({
-            url: 'mongodb://just:just2015@127.0.0.1/todo',
+            url: 'mongodb://***:****@127.0.0.1/todo',
             ttl: 14 * 24 * 60 * 60, //14天,
         })
     });
@@ -70,6 +69,9 @@ app.use(session(sessionOption));
 app.use(passport.initialize());
 app.use(passport.session());
 app.use(express.static(path.join(__dirname, 'public/dist')));
+app.get("/main",function (req, res) {
+	res.redirect("/")
+});
 
 require('./routes/router')(app);
 

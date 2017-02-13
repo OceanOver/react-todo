@@ -6,7 +6,7 @@ import {mixin} from 'core-decorators'
 import mainMixin from './mainMixin'
 
 let config = new Config()
-let router = config.router
+let api = config.api
 
 @mixin(mainMixin)
 class ContentCell extends Component {
@@ -24,7 +24,7 @@ class ContentCell extends Component {
     }
     var httpHeader = this.configHttpHeader()
     var that = this
-    fetch(router.deleteItem, {
+    fetch(api.deleteItem, {
       method: 'POST',
       credentials: 'include',
       headers: httpHeader,
@@ -51,7 +51,7 @@ class ContentCell extends Component {
     var httpHeader = this.configHttpHeader()
     var that = this
     this.setState({loading: true})
-    fetch(router.completeItem, {
+    fetch(api.completeItem, {
       method: 'POST',
       credentials: 'include',
       headers: httpHeader,

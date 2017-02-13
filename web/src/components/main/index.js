@@ -19,7 +19,7 @@ import _ from 'lodash'
 import moment from 'moment'
 
 let config = new Config()
-let router = config.router
+let api = config.api
 
 @mixin(mainMixin)
 class Main extends Component {
@@ -49,7 +49,7 @@ class Main extends Component {
     }
     var httpHeader = this.configHttpHeader()
     var that = this
-    fetch(router.editItem, {
+    fetch(api.editItem, {
       method: 'POST',
       credentials: 'include',
       headers: httpHeader,
@@ -110,11 +110,11 @@ class Main extends Component {
     this.setState({modalExpireDate: expireDate})
   }
 
-  // request uncomplete todo items
+  // request uncomplete items
   requestUncompleteItems() {
     var httpHeader = this.configHttpHeader()
     var that = this
-    fetch(router.list, {
+    fetch(api.list, {
       method: 'POST',
       credentials: 'include',
       headers: httpHeader,

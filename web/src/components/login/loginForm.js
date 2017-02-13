@@ -8,7 +8,7 @@ import formMixin from './formMixin'
 import {browserHistory} from 'react-router'
 
 let config = new Config()
-let router = config.router
+let api = config.api
 
 @mixin(formMixin)
 class LoginForm extends Component {
@@ -35,7 +35,7 @@ class LoginForm extends Component {
 
     this.changeLoadState(true)
     var that = this
-    fetch(router.login, {
+    fetch(api.login, {
       method: 'POST',
       credentials:'include',
       headers: {

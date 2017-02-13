@@ -9,11 +9,8 @@ module.exports = {
     database: {
         uri: 'mongodb://127.0.0.1/todo',
         options: {
-            user: 'just',          //生产环境用户名
-            pass: 'just2015'           //生产环境密码
+            user: '***',          //生产环境用户名
+            pass: '***'           //生产环境密码
         }
-    },
-    redis: {
-        password:'just2015'
     }
 }

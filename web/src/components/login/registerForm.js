@@ -7,7 +7,7 @@ import {mixin} from 'core-decorators'
 import formMixin from './formMixin'
 
 let config = new Config()
-let router = config.router
+let api = config.api
 
 @mixin(formMixin)
 class RegisterForm extends Component {
@@ -38,7 +38,7 @@ class RegisterForm extends Component {
 
     this.changeLoadState(true)
     var that = this
-    fetch(router.register, {
+    fetch(api.register, {
       method: 'POST',
       headers: {
         'Accept': 'application/json',

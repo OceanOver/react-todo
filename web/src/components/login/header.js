@@ -1,5 +1,4 @@
 import React, {Component, PropTypes} from 'react';
-import {Menu, Row, Col, Icon, Dropdown} from 'antd'
 import './style/header.less'
 
 class Header extends Component {
